@@ -1,6 +1,5 @@
 body{
 font-family: 'Montserrat', sans-serif;
-
 }
 
 h1{
@@ -8,6 +7,7 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 font-size:3.5rem;
 line-height: 1.5;
+
 }
 
 h2{
@@ -66,6 +66,9 @@ p{
 .download-button{
   margin:5% 3% 5% 0;
 }
+.download-button2{
+  margin:5% 2% 0;
+}
 
 /* title image */
 
@@ -75,6 +78,7 @@ transform: rotate(25deg);
 position:absolute;
 right:25%;
 }
+
 @media (max-width:1044px){
   .title-image{position:static;
                 transform: rotate(0);
@@ -143,4 +147,29 @@ position:relative;
 
 .pricing-column{
   padding:3% 2%;
+}
+
+#cta{
+background-color: #ff4c68;
+ padding:7% 20%;
+ color:#fff;
+ text-align:center;
+
+}
+
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  width:60%;
+  margin:auto;
+  padding-bottom: 20px;
+}
+
+#footer{
+  padding:5% 0;
+  text-align: center;
+}
+
+.footer-icons{
+  padding:15px 15px;
 }
